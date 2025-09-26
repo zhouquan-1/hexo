@@ -105,3 +105,16 @@ deploy:
   type: git
   repo: https://github.com/zhouquan-1/zhouquan-1.github.io.git
   branch: main
+
+# 内容搜索
+search:
+  path: search.xml
+  field: post
+
+# emoji表情支持
+githubEmojis:
+  enable: true
+  className: github-emoji
+  inject: true
+  styles:
+  customEmojis:
