@@ -13,12 +13,9 @@ menu:
   归档:
     url: /archives
     icon: fas fa-archive
-  相册:
-    url: /galleries
-    icon: fas fa-image
-#  About:
-#    url: /about
-#    icon: fas fa-user-circle
+  关于:
+    url: /about
+    icon: fas fa-user-circle
 #  Contact:
 #    url: /contact
 #    icon: fas fa-comments
@@ -84,13 +81,13 @@ dream:
 music:
   enable: true
   title: #非吸底模式有效
-    enable: true
+    enable: false
     show: 听听音乐
   autoHide: true    # hide automaticaly
   server: netease   #require	music platform: netease, tencent, kugou, xiami, baidu
   type: playlist    #require song, playlist, album, search, artist
   id: 14342530337     #require	song id / playlist id / album id / search keyword
-  fixed: false       # 开启吸底模式
+  fixed: true       # 开启吸底模式
   autoplay: false   # 是否自动播放
   theme: '#42b983'
   loop: 'all'       # 音频循环播放, 可选值: 'all', 'one', 'none'
@@ -257,7 +254,7 @@ snowdown:
 # profile in about page, including avatars, career, and personal introductions.
 # 在”关于”页面中配置个人信息，包括头像、职业和个人介绍.
 profile:
-  avatar: /medias/avatar.jpg
+  avatar: /medias/IMG_8390.JPG
   career: Software Engineer
   introduction: If you wish to succeed, you should use persistence as your good friend, experience as your reference, prudence as your brother and hope as your sentry.
 
@@ -312,7 +309,7 @@ mySkills:
 # If you don't want to display this `Gallery` content, you can deactivate or delete this configuration.
 # 在“关于”页面配置"我的相册"图片，如果你不需要这些信息则可以将其设置为不激活或者将其删除.
 myGallery:
-  enable: true
+  enable: false
   data:
     - /medias/featureimages/0.jpg
     - /medias/featureimages/1.jpg
